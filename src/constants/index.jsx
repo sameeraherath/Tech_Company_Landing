@@ -8,92 +8,93 @@ import user5 from "../assets/profile-pictures/user5.jpg";
 import user6 from "../assets/profile-pictures/user6.jpg";
 
 export const navItems = [
+  { label: "Home", href: "#" },
   { label: "Services", href: "#" },
-  { label: "Testimonials", href: "#" },
+  { label: "Portfolio", href: "#" },
+  { label: "Blog", href: "#" },
   { label: "Contact", href: "#" },
-  { label: "About Us", href: "#" },
 ];
 
 export const testimonials = [
   {
-    user: "John Doe",
-    company: "Stellar Solutions",
+    user: "Alice Williams",
+    company: "Innovatech Ltd.",
     image: user1,
-    text: "The software provided has transformed our operations. The team was professional, and the product exceeded our expectations.",
+    text: "Their innovative approach and dedication turned our vision into reality. We couldn’t be happier with the results.",
   },
   {
-    user: "Jane Smith",
-    company: "Blue Horizon Technologies",
+    user: "Brian Lee",
+    company: "TechForward Inc.",
     image: user2,
-    text: "Our project was a success thanks to their innovative solutions. The team's dedication and expertise were evident throughout.",
+    text: "Exceptional service and a product that truly meets our needs. Their team is knowledgeable and responsive.",
   },
   {
-    user: "David Johnson",
-    company: "Quantum Innovations",
+    user: "Catherine Young",
+    company: "NextGen Solutions",
     image: user3,
-    text: "A fantastic experience from start to finish. Their attention to detail and commitment to quality made a significant difference.",
+    text: "A game-changer for our business. The project was delivered on time and exceeded all our expectations.",
   },
   {
-    user: "Ronee Brown",
-    company: "Fusion Dynamics",
+    user: "Daniel Brown",
+    company: "AlphaTech Co.",
     image: user4,
-    text: "The software development process was smooth and efficient. Their insights and solutions greatly contributed to our project's success.",
+    text: "Smooth collaboration and a final product that was both robust and user-friendly. Highly recommend their services.",
   },
   {
-    user: "Michael Wilson",
-    company: "Visionary Creations",
+    user: "Ella Martinez",
+    company: "BrightFuture Enterprises",
     image: user5,
-    text: "Impressed by their professionalism and the high quality of their software. They delivered more than we had anticipated.",
+    text: "Professional and efficient. The solution provided was perfect for our needs and the support was outstanding.",
   },
   {
-    user: "Emily Davis",
-    company: "Synergy Systems",
+    user: "Frank Green",
+    company: "Optimal Solutions",
     image: user6,
-    text: "Their team went above and beyond to ensure our software met all our requirements. We’re looking forward to future collaborations.",
+    text: "A pleasure to work with. Their attention to detail and proactive communication made the entire process seamless.",
   },
 ];
 
 export const Service = [
   {
     icon: <Code />,
-    text: "Custom Software Development",
+    text: "Software Development",
     description:
-      "Tailored solutions to meet your unique business needs, from initial concept to final deployment.",
+      "Custom software solutions designed to streamline your operations and drive innovation.",
   },
   {
     icon: <Cloud />,
-    text: "Cloud Integration",
+    text: "Cloud Solutions",
     description:
-      "Seamless integration with cloud platforms to enhance scalability, flexibility, and accessibility.",
+      "Reliable cloud services to improve scalability, efficiency, and performance across your business.",
   },
   {
     icon: <Shield />,
-    text: "Cybersecurity Solutions",
+    text: "Information Security",
     description:
-      "Advanced security features to protect your data and systems from emerging threats and vulnerabilities.",
+      "Comprehensive security measures to safeguard your data and infrastructure from potential threats.",
   },
 ];
 
 export const resourcesLinks = [
-  { href: "#", text: "Getting Started" },
-  { href: "#", text: "Documentation" },
-  { href: "#", text: "Tutorials" },
-  { href: "#", text: "API Reference" },
-  { href: "#", text: "Support Center" },
+  { href: "#", text: "Introduction" },
+  { href: "#", text: "User Guide" },
+  { href: "#", text: "How-To Videos" },
+  { href: "#", text: "API Documentation" },
+  { href: "#", text: "Customer Support" },
 ];
 
 export const platformLinks = [
-  { href: "#", text: "Features" },
-  { href: "#", text: "Supported Platforms" },
+  { href: "#", text: "Product Features" },
+  { href: "#", text: "Platform Compatibility" },
   { href: "#", text: "System Requirements" },
-  { href: "#", text: "Downloads" },
-  { href: "#", text: "Release Notes" },
+  { href: "#", text: "Software Downloads" },
+  { href: "#", text: "Version Updates" },
 ];
 
 export const communityLinks = [
-  { href: "#", text: "Events" },
-  { href: "#", text: "Meetups" },
-  { href: "#", text: "Conferences" },
-  { href: "#", text: "Hackathons" },
-  { href: "#", text: "Career Opportunities" },
+  { href: "#", text: "Upcoming Events" },
+  { href: "#", text: "Local Meetups" },
+  { href: "#", text: "Annual Conferences" },
+  { href: "#", text: "Tech Challenges" },
+  { href: "#", text: "Career Paths" },
 ];

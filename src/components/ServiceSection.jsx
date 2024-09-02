@@ -13,10 +13,10 @@ const FeatureSection = () => {
           </span>
         </h2>
       </div>
-      <div className="flex flex-wrap mt-10 lg:mt-20">
+      <div className="flex flex-wrap mt-10 lg:mt-20 mb-40">
         {Service.map((Service, index) => (
           <div key={index} className="w-full sm:w-1/2 lg:w-1/3">
-            <div className="flex border border-gray-800 p-4 rounded-lg mx-6 h-64 ">
+            <div className="flex  p-4 rounded-lg mx-6 h-60 mt-10">
               <div className="flex mx-6 h-10 w-10 p-2 bg-neutral-900 text-indigo-500 rounded-full border-2 border-indigo-500 items-center justify-center">
                 {Service.icon}
               </div>
