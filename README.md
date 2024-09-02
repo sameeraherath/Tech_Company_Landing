@@ -1,8 +1,12 @@
-# React + Vite
+Tech Website Landing Page | UI
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern UI landing page for a tech website, built with React, Tailwind CSS, and Lucide Icons.
 
-Currently, two official plugins are available:
+Technologies Used
+React: A JavaScript library for building user interfaces.
+Lucide Icons: A collection of high-quality icons for enhancing visual design.
+Tailwind CSS: A utility-first CSS framework for efficient and customizable styling.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Screenshot
+
+![Project Screenshot](src/assets/screenshot/full.png)
